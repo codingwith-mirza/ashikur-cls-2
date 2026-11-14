@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --font-family: "Poppins", sans-serif;
+  --main-color:#fc0;
+  --first-color:#353535;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1247px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: var(--font-family);
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+              /*Common Css Area End*/
+
+nav .row{
+    justify-content: space-between;
+}
+.ashikur{
+    margin-top: 14px;
+}
+.navbar li{
+    display: inline-block;
+    margin: 18px 22px 5px;
+}
+.navbar a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color:var(--first-color);
+}
+.navbar .active{
+    border-bottom: 1px solid black;
+}
+
+
+
+#uiux .row .text,
+#uiux .row .img{
+    width: 50%;
+}
+#uiux .row{
+    align-items:center;
+}
+#uiux .text h6,#uiux .text h1,
+#uiux .text p{
+    margin-bottom: 25px;
+}
+#uiux .text h6 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color:var(--first-color);
+    margin-top: 150px;
+}
+#uiux .text h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color:var(--first-color);
+}
+#uiux .text p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--first-color);
+    margin-bottom: 50px;
+}
+#uiux .text #follow{
+    margin-top: 68px;
+}
+#uiux .text #follow img{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+#uiux .text img{
+    background-color:rgba(128, 128, 128,0.3);
+}
+
+#uiux .btn,
+#uiux .btn-ghost{
+    border-radius: 20px;
+}
+#uiux .btn{
+    padding: 15px 82px 18px 42px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    background-color: var(--main-color);
+    margin-right: 15px;
+}
+#uiux .btn-ghost{
+    padding: 16px 54px 17px 18px;
+    border: 1px solid #000;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color:var(--first-color);
+}
+
+
+
+#about .row{
+    justify-content: space-evenly;
+    align-items: center;
+}
+#about .container{
+    margin-top: 50px;
+    height: 530px;
+    background-image:linear-gradient(90deg, #FFCC00, #FFF5CB);
+}
+#about .pic,
+#about .line{
+    width: 40%;
+}
+#about .line h4{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--first-color);
+    margin-bottom: 40px;
+
+}
+#about .line p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color:var(--first-color);
+    margin-bottom: 45px;
+}
+#about .line .btn-ghost{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 17px 44px 17px 43px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--first-color);
+}
+
+
+#high .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#high .frame{
+    text-align: center;
+    margin: 150px 0 165px 0;
+}
+#high .frame h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--first-color);
+
+}
+#high .frame p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;
+}
+
+
+
+#brand .container{
+    border-radius: 30px;
+    height: 449px;
+    background: linear-gradient(95.13deg, #fc0 -21.21%, #fff5cb 111.27%);
+}
+#brand .row{
+    justify-content: space-evenly;
+    align-items: center;
+}
+#brand .text h3{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: var(--first-color);
+}
+#brand .text p{
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: var(--first-color);
+    margin: 21px 0 35px 0 ;
+}
+#brand .btn-ghost{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    text-align: center;
+    color:var(--first-color);
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 18px 38px 17px;
+}
+
+
+
+
+#what{
+    margin-top:146px; ;
+}
+/*#what .row .box,
+#what .row .text{
+    width: 50%;   
+}*/
+#what .row{
+    justify-content:space-between;
+}
+#what .row .txt{
+    align-items: center;
+}
+
+#what .txt{
+    text-align: right;
+}
+#what .txt > div{
+    display: inline-block;
+    margin-left: 54px;
+}
+#what .txt h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: var(--first-color);
+}
+#what .txt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color:var(--first-color);
+    margin: 25px 0;
+}
+/*#what .box .logo{
+    position: relative;
+}*/
+#what .box .detail h6,
+#what .box .detail p{
+    position: absolute;
+}
+#what .box .detail h6{
+    margin-top:-110px;
+    margin-left: 70px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: var(--first-color);
+}
+#what .box .detail p{
+    margin-top: -80px;
+    margin-left:70px ;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 12px;
+line-height: 180%;
+color: var(--first-color);
+}
+
+.box .logo img{
+    margin-bottom: 50px;
+}
+
+
+
+#work h2{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 50px;
+    /*text-align: right;*/
+    color: var(--first-color);
+    margin-top: 140px;
+}
+#work .new h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color:var(--first-color);
+}
+#work .new p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    padding-top: 16px;
+}
+#work .new{
+    margin-top: 100px;
+}
+#work .bar-img{
+    margin:90px 110px 0 117px;
+}
+#work .new .mai{
+    margin-top: 180px;
+}
+#work .new .mais{
+    margin-top: 109px;
+}
+#work .new .maish{
+    margin-bottom: 30px;
+}
+
